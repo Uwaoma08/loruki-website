@@ -331,4 +331,12 @@ margin-right: 20px;
     .navbar li {
         align-items: center;
     }
+    .languages .flex {
+        flex-direction: column;
+    }
+    .features-head .grid,
+    .features-sub-head .grid,
+    .docs-head .grid {
+        grid-template-columns: 1fr;
+    }
 }
